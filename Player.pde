@@ -26,8 +26,8 @@ void movePlayer(int dx, int dy) {
     } else if (currentLevel[nextY][nextX] == 'G') {
       playerScore += POINTS_FOR_GEM;
       currentLevel[nextY][nextX] = 'W';
-      //coinSounds.play();
-      //coinSounds.rewind();
+      coinSounds.play();
+      coinSounds.rewind();
     }
   }
 }

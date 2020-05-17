@@ -2,7 +2,6 @@ final int MENU_STATE = 0; //<>//
 final int GAME_STATE = 1;
 final int PAUSED_STATE = 2;
 final int VICTORY_STATE = 3;
-// final int DEFEAT_STATE = 4; TODO
 
 int currentState = MENU_STATE;
 

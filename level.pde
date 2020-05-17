@@ -56,9 +56,11 @@ void drawLevel() {
         image(exitImage, pixelX, pixelY, cellSize, cellSize);
         break;
       case 'G':
-        fill(30, 200, 30);
-        rect(pixelX, pixelY, cellSize, cellSize);
+        fill(240, 40, 200);
+        image(wayImage, pixelX, pixelY, cellSize, cellSize);
+        image(gemImage, pixelX, pixelY, cellSize, cellSize);
         break;
+        /*
       case 'S':
         fill(200, 200, 200);
         rect(pixelX, pixelY, cellSize, cellSize);
@@ -66,7 +68,7 @@ void drawLevel() {
       case 'p':
         fill(60, 60, 60);
         rect(pixelX, pixelY, cellSize, cellSize);
-        break;
+        break;*/
       }
     }
   }

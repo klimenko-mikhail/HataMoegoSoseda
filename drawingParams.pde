@@ -11,6 +11,7 @@ PFont firstFont;
 PImage wallImage;
 PImage exitImage;
 Sprite coinSprite;
+PImage gemImage;
 PImage playerImage;
 PImage wayImage;
 
@@ -32,6 +33,7 @@ void loadImages() {
   wallImage = loadImage("wall.png");
   exitImage = loadImage("exit.png");
   coinSprite = new Sprite("coin/sprite_coin", 6, ".png");
+  gemImage = loadImage("gem.png");
   wayImage = loadImage("way.png");
 }
 
