@@ -36,7 +36,7 @@ void drawPlayer() {
   int pixelX = playerX * cellSize + centeringShiftX;
   int pixelY = playerY * cellSize + centeringShiftY;
 
-  image(playerImage, pixelX, pixelY, cellSize, cellSize);
+  playerSprite.draw(pixelX, pixelY, cellSize, cellSize);
 }
 
 void drawPlayerScore() {

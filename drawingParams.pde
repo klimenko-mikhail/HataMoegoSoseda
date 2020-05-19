@@ -8,11 +8,11 @@ int centeringShiftY;
 
 PFont firstFont;
 
+Sprite coinSprite;
+Sprite playerSprite;
 PImage wallImage;
 PImage exitImage;
-Sprite coinSprite;
 PImage gemImage;
-PImage playerImage;
 PImage wayImage;
 
 void recalcDrawingParams() {
@@ -29,10 +29,10 @@ void loadFonts() {
 }
 
 void loadImages() {
-  playerImage = loadImage("player.png");
+  playerSprite = new Sprite("player/sprite_player", 8, ".png", 1); //PS: Я непонимаю, почему фрэймы переключаются с такой скоростью, хотя я указывал 1 фпс в Piskel
+  coinSprite = new Sprite("coin/sprite_coin", 6, ".png", 1);
   wallImage = loadImage("wall.png");
   exitImage = loadImage("exit.png");
-  coinSprite = new Sprite("coin/sprite_coin", 6, ".png");
   gemImage = loadImage("gem.png");
   wayImage = loadImage("way.png");
 }

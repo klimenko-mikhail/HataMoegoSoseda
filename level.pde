@@ -62,13 +62,13 @@ void drawLevel() {
         break;
         /*
       case 'S':
-        fill(200, 200, 200);
-        rect(pixelX, pixelY, cellSize, cellSize);
-        break;
-      case 'p':
-        fill(60, 60, 60);
-        rect(pixelX, pixelY, cellSize, cellSize);
-        break;*/
+         fill(200, 200, 200);
+         rect(pixelX, pixelY, cellSize, cellSize);
+         break;
+         case 'p':
+         fill(60, 60, 60);
+         rect(pixelX, pixelY, cellSize, cellSize);
+         break;*/
       }
     }
   }
